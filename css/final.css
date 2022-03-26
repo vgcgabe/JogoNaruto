@@ -6,7 +6,7 @@ html,body{
     height: 100%;
 }
 body{
-    background-image: url(/ProjetoJogo/images/maxresdefault.jpg);
+    background-image: url(../images/maxresdefault.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

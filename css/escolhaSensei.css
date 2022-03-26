@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.question{
+    width: 80%;
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    color: orange;
+
+    background-color: rgba(100, 100, 100, 0.9);
+
+}
+
+.card{
+    height: 415px;
+}
+
+.selecao{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    width: 60%;
+    height: 50px;
+}
+
+#imagemAnimais{
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}

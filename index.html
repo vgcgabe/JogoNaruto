@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Narutão</title>
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
+    <link rel="stylesheet" href="./css/escolhaSensei.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"> <h1 id="jogaoDoNarutao">Jogão do Narutão</h1> </a>
+    </header>
+
+    <main>
+        <h1 class="question">Escolha um personagem.</h1>
+
+        <section>
+            <div class="card">
+                <h2 class="name">Sakura</h2>
+                <img class="fotoCard" src="./images/sakura.jpg" alt="Foto de Sakura">
+                <p>Ajude Sakura a tomar as decisões que a farão se tornar a melhor e mais forte Médica Ninja de todos os tempos.</p>
+                <button onclick="clicouSakura();">Jogar</button>
+            </div>
+
+            <div class="card">
+                <h2 class="name">Naruto</h2>
+                <img class="fotoCard" src="./images/naruto.jpeg" alt="Foto de Naruto">
+                <p>Ajude Naruto a tomar as decisões corretas para se tornar o maior Hokage de todos os tempos!</p>
+                <button onclick="clicouNaruto();">Jogar</button>
+            </div>
+
+            <div class="card">
+                <h2 class="name">Sasuke</h2>
+                <img class="fotoCard" src="./images/sasuke.png" alt="Foto de Sasuke">
+                <p>Ajude Sasuke a ficar mais forte e vingar seu clã que foi dizimado por seu irmão mais velho, Itachi.</p>
+                <button onclick="clicouSasuke();">Jogar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Jogo criado por Victor Gabriel Camargo Guedes, para fins didáticos.</p>
+
+        <div id="socialMedias">
+            <a href="https://github.com/vgcgabe" target="_blank"><img class="icon" src="./images/github.png" alt="Icone do GitHub"></a>
+            <a href="https://www.linkedin.com/in/victor-gabriel-camargo-guedes-9a803a180/" target="_blank"><img class="icon" src="./images/linkedin.png" alt="Icone do LinkedIn"></a>
+        </div>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/fase1Naruto.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

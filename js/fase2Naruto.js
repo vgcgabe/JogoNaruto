@@ -6,7 +6,7 @@ function fase2Naruto()
     {
         var resposta = prompt("Escolha o melhor Animal de Invocação para Naruto: \na - Gamabunta (sapo)\nb - Katsuyu (lesma)\nc - Aoda (cobra)");
 
-        if(resposta=='a')
+        if(resposta=='a' || resposta =='A')
         {
             alert("Parabéns, você acertou! Agora você pode passar para a próxima fase.");
             break;

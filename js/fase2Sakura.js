@@ -6,7 +6,7 @@ function fase2Sakura()
     {
         var resposta = prompt("Escolha o melhor Animal de Invocação para Sakura: \na - Gamabunta (sapo)\nb - Katsuyu (lesma)\nc - Aoda (cobra)");
 
-        if(resposta=='b')
+        if(resposta=='b' || resposta =='B')
         {
             alert("Parabéns, você acertou! Agora você pode passar para a próxima fase.");
             break;

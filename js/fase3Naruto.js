@@ -6,7 +6,7 @@ function fase3Naruto()
     {
         var resposta = prompt("Escolha o jutsu favorito de Naruto\na - Ninjutsu de Cura\nb - Rasengan\nc - Chidori");
 
-        if(resposta=='b')
+        if(resposta=='b' || resposta =='B')
         {
             alert("Parabéns, você acertou!");
             break;

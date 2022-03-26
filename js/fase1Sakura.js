@@ -8,7 +8,7 @@ function fase1Sakura()
     {
         var resposta = prompt("Escolha o melhor Sensei para Sakura: \na - Orochimaru\nb - Tsunade\nc - Jiraiya");
 
-        if(resposta=='b')
+        if(resposta=='b' || resposta =='B')
         {
             alert("Parabéns, você acertou! Agora você pode passar para a próxima fase.");
             break;

@@ -8,7 +8,7 @@ function fase1Sasuke()
     {
         var resposta = prompt("Escolha o melhor Sensei para Sasuke: \na - Orochimaru\nb - Tsunade\nc - Jiraiya");
 
-        if(resposta=='a')
+        if(resposta=='a' || resposta =='A')
         {
             alert("Parabéns, você acertou! Agora você pode passar para a próxima fase.");
             break;

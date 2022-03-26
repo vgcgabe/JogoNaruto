@@ -6,7 +6,7 @@ function fase2Sasuke(){
     {
         var resposta = prompt("Escolha o melhor Animal de Invocação para Sasuke: \na - Gamabunta (sapo)\nb - Katsuyu (lesma)\nc - Aoda (cobra)");
 
-        if(resposta=='c')
+        if(resposta=='c' || resposta =='C')
         {
             alert("Parabéns, você acertou! Agora você pode passar para a próxima fase.");
             break;

@@ -6,7 +6,7 @@ function fase1Naruto()
     {
         var resposta = prompt("Escolha o melhor Sensei para Naruto: \na - Orochimaru\nb - Tsunade\nc - Jiraiya");
 
-        if(resposta=='c')
+        if(resposta=='c' || resposta =='C')
         {
             alert("Parabéns, você acertou! Agora você pode passar para a próxima fase.");
             break;

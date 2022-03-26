@@ -6,7 +6,7 @@ function fase3Sakura()
     {
         var resposta = prompt("Escolha o jutsu favorito de Sakura\na - Ninjutsu de Cura\nb - Rasengan\nc - Chidori");
 
-        if(resposta=='a')
+        if(resposta=='a' || resposta =='A')
         {
             alert("Parabéns, você acertou!");
             break;

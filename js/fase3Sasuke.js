@@ -6,7 +6,7 @@ function fase3Sasuke()
     {
         var resposta = prompt("Escolha o jutsu favorito de Sasuke\na - Ninjutsu de Cura\nb - Rasengan\nc - Chidori");
 
-        if(resposta=='c')
+        if(resposta=='c' || resposta =='C')
         {
             alert("Parabéns, você acertou!");
             break;
